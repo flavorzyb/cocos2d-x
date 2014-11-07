@@ -7,7 +7,7 @@ SRCDIR=$DIR/LuaJit-2.0.1
 DESTDIR=$DIR/ios
 IXCODE=`xcode-select -print-path`
 ISDK=$IXCODE/Platforms/iPhoneOS.platform/Developer
-ISDKVER=iPhoneOS6.1.sdk
+ISDKVER=iPhoneOS8.1.sdk
 ISDKP=$ISDK/usr/bin/
 
 rm "$DESTDIR"/*.a
